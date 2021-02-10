@@ -124,10 +124,17 @@ hr {
     margin: 0 0 24px;
 }
 
-a {}
-
-a:hover,
-a:focus {}
+a {
+    color: royalblue;
+    transition: all .1s ease-in-out;
+}
 
 a:visited,
-a:active {}
+a:active {
+    color: blueviolet;
+}
+
+a:hover,
+a:focus {
+    color: crimson;
+}
